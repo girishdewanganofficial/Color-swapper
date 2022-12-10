@@ -1,0 +1,34 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.bigBox{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+   
+}
+.smallBox{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin-left: 400px;
+}
+
+#btn{
+    padding: 20px;
+    background-color: #7d48ba;
+    color: aliceblue;
+    font-family: monospace;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+#btn:hover{
+    background-color: blue;
+    font-weight: bolder;
+}
